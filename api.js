@@ -45,7 +45,7 @@ class ApiService {
       );
       return await response.json();
     } catch (err) {
-      console.log(err);
+      alert(err);
     }
   }
 }
